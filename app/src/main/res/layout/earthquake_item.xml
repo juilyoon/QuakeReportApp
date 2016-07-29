@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="@dimen/listItem_padding"
     tools:background="#FFE"
     android:gravity="center_vertical">
 
@@ -10,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/listItem_padding"
         android:id="@+id/magnitude_view"
         tools:text="4.5"/>
     <TextView
